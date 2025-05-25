@@ -1,4 +1,5 @@
-module.exports = function(grunt) {
+/* eslint-disable no-undef */
+export default function(grunt) {
     require('time-grunt')(grunt);
 
     var config = require('./.screeps.json');
